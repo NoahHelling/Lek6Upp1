@@ -1,0 +1,40 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 1fr 2fr;
+}
+
+main{
+    display: grid;
+    text-align: center;
+}
+
+h1{
+    grid-column: 1/2;
+    grid-row: 1/1;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+img{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    height: 150px;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 5%;
+    
+}
+
+p{
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
