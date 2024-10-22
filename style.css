@@ -1,40 +1,77 @@
 body{
     display: grid;
-    grid-template-columns: 1fr 2fr ;
-    grid-template-rows: 1fr 2fr;
-}
-
-main{
-    display: grid;
-    text-align: center;
-}
-
-h1{
-    grid-column: 1/2;
-    grid-row: 1/1;
-    text-align: center;
-    border: 3px solid black;
-    border-radius: 5px;
-}
-
-img{
-    grid-row: 1/1;
-    grid-column: 1/1;
-    height: 150px;
-    width: auto;
-    border: 3px solid black;
-    border-radius: 5%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 1fr;
     
 }
 
-p{
-    text-align: center;
+img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-height: 97%;
+    max-width: 97%;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 5px;
+    
+
+
+
+    
 }
 
-article{
-    text-align: center;
+
+.hjälp{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15%;
 }
 
-footer{
+.top{
     text-align: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 5px;
+    padding-top: 35px;
+}
+
+.artiklar{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.ett{
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    min-height: 32%;
+}
+
+.två{
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    min-height: 32%;
+}
+
+.tre{
+    border: solid black 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    min-height: 32%;
+}
+
+.footer{
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 5px;
 }
